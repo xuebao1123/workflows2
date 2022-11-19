@@ -1,0 +1,27 @@
+- name: A debugger for actions
+  # You may pin to the exact commit or the version.
+  # uses: shaowenchen/debugger-action@88bdf1618143bd64c64d9c22621802830a470025
+  uses: shaowenchen/debugger-action@v2
+  with:
+    # frp server addr
+    frp_server_addr: # optional, default is 
+    # frp server port
+    frp_server_port: # optional, default is 
+    # frp token
+    frp_token: # optional, default is 
+    # ssh port to login
+    ssh_port: # optional, default is 
+    # ngrok token
+    ngrok_token: # optional, default is 
+    # ngrok addr 1 to tunnel
+    ngrok_addr_1: # optional, default is 
+    # ngrok proto 1 to tunnel
+    ngrok_proto_1: # optional, default is 
+    # ngrok addr 2 to tunnel
+    ngrok_addr_2: # optional, default is 
+    # ngrok proto 2 to tunnel
+    ngrok_proto_2: # optional, default is 
+    # ngrok addr 3 to tunnel
+    ngrok_addr_3: # optional, default is 
+    # ngrok proto 3 to tunnel
+    ngrok_proto_3: # optional, default is 
